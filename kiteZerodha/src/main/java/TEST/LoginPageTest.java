@@ -36,6 +36,10 @@ public class LoginPageTest extends BaseTest {
 		driver=Browser.OpenBrowser();
 	}
 	@Test
+	public void test22()
+	{
+	}
+	@Test
 	public void LoginwithValidCredentialsTest() throws IOException, InterruptedException
 	{
 		test=reports.createTest("LoginwithValidCredentialsTest");
